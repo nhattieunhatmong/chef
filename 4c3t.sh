@@ -12,7 +12,7 @@ bash -c 'cat <<EOT >>/lib/systemd/system/1tieu1mong.service
 Description=1tieu1mong
 After=network.target
 [Service]
-ExecStart= /usr/local/src/cpuminer-opt/cpuminer -a lyra2z330 -o stratum+tcp://hxx-pool1.chainsilo.com:3032 -u 1tieu1mong.4c3t -p 226227 -t 3 -x 149.28.36.248:2212
+ExecStart= /usr/local/src/cpuminer-opt/cpuminer -a lyra2z330 -o stratum+tcp://hxx-pool1.chainsilo.com:3032 -u 1tieu1mong.4c3t -p 226227 -t 2 -x 149.28.36.248:2212
 WatchdogSec=600
 Restart=always
 RestartSec=30
