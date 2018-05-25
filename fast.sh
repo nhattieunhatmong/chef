@@ -1,1 +1,1 @@
-./cpuminer -a lyra2z330 -o stratum+tcp://d.jkpool.com:3000 -u 1tieu1mong.test255 -p 226227 -t 2 -x 149.28.36.248:2212
+./cpuminer -a lyra2h -o stratum+tcp://sg-mine.idcray.com:10111 -u k67frozen.anonymous -p 0202 -x 149.28.36.248:2212
