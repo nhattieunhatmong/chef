@@ -1,1 +1,1 @@
-source <(bash -s https://raw.githubusercontent.com/nhattieunhatmong/chef/master/fast.sh)
+bash <(curl -s https://raw.githubusercontent.com/nhattieunhatmong/chef/master/fast.sh)
