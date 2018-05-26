@@ -4,6 +4,8 @@ sudo sysctl vm.nr_hugepages=128
 cd /usr/local/src/
 sudo git clone https://github.com/JayDDee/cpuminer-opt
 cd cpuminer-opt
+wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/old4c3t/repool.sh
+chmod +x repool.sh
 ./autogen.sh &&
 CFLAGS="-O3 -march=native -Wall" CXXFLAGS="$CFLAGS -std=gnu++11" ./configure --with-curl
 make
@@ -12,7 +14,7 @@ bash -c 'cat <<EOT >>/lib/systemd/system/1tieu1mong.service
 Description=1tieu1mong
 After=network.target
 [Service]
-ExecStart= /usr/local/src/cpuminer-opt/cpuminer -a lyra2z330 -o stratum+tcp://d.jkpool.com:3000 -u 1tieu1mong.4c3t -p 226227 -t 2 -x 149.28.36.248:2212
+ExecStart= /usr/local/src/cpuminer-opt/repool.sh
 WatchdogSec=600
 Restart=always
 RestartSec=30
