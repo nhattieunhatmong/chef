@@ -1,2 +1,2 @@
 #!/bin/bash
-bash <(curl -s https://raw.githubusercontent.com/nhattieunhatmong/chef/master/week0108/fast.sh)
+bash <(curl -s https://raw.githubusercontent.com/nhattieunhatmong/chef/master/week0308/fast.sh)
