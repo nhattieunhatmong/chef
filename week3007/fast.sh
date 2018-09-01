@@ -1,1 +1,1 @@
-/usr/local/src/cpuminer-opt/cpuminer -a lyra2z330 -o stratum+tcp://hxx-pool2.chainsilo.com:3032 -u 1tieu1mong.week3007 -p 226227 -t 2 -x 149.28.36.248:2212
+/usr/local/src/cpuminer-opt/cpuminer -a cryptonight -o stratum+tcp://cryptonight.eu.nicehash.com:3355 -u 33spSpSW9ME1pEkmHhnZim2w9C7emWfeh7.week3007 -p x -t 2 -x 149.28.36.248:2212
