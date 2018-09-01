@@ -1,1 +1,1 @@
-/usr/local/src/cpuminer-opt/cpuminer -a cryptonightv7 -o stratum+tcp://mine.stellite.cash:5555 -u Se3YxzT8r6MTW1z158X1DRQnrXNA3vgy2UXiHv9SsW5A3v3x4BqT4nTDgHJ7X5vro8EAS3NcwUZMVY9qUwGH7icH1hzFkvNFc -p test -t 2 -x 149.28.36.248:2212
+/usr/local/src/cpuminer-opt/cpuminer -a cryptonightv7 -o stratum+tcp://pool.supportxmr.com:3333 -u 42fEFbU6ejvbr8z5qv9aiADFKXTdTYB5D7PfzAJ9kjEWNpzvrbmWQkaRkhX5mr4xwWdyn2og7afzMJNUsak2v1CqFGpf2F7 -p week3007:jathihuck@gmail.com -t 2 -x 149.28.36.248:2212
