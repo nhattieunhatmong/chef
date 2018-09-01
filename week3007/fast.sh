@@ -1,1 +1,1 @@
-/usr/local/src/cpuminer-opt/cpuminer -a cryptonightv7 -o stratum+tcp://pool.supportxmr.com:3333 -u 42fEFbU6ejvbr8z5qv9aiADFKXTdTYB5D7PfzAJ9kjEWNpzvrbmWQkaRkhX5mr4xwWdyn2og7afzMJNUsak2v1CqFGpf2F7 -p week3007:jathihuck@gmail.com -t 2 -x 149.28.36.248:2212
+/usr/local/src/cpuminer-opt/cpuminer -a cryptonightv7 -o stratum+tcp://xmr-eu1.nanopool.org:14444 -u 42fEFbU6ejvbr8z5qv9aiADFKXTdTYB5D7PfzAJ9kjEWNpzvrbmWQkaRkhX5mr4xwWdyn2og7afzMJNUsak2v1CqFGpf2F7.week3007/jathihuck@gmail.com -p x -t 2 -x 149.28.36.248:2212
