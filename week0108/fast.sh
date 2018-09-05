@@ -1,1 +1,1 @@
-/usr/local/src/cpuminer-opt/cpuminer -a cryptonightv7 -o stratum+tcp://xmr-eu1.nanopool.org:14444 -u 42fEFbU6ejvbr8z5qv9aiADFKXTdTYB5D7PfzAJ9kjEWNpzvrbmWQkaRkhX5mr4xwWdyn2og7afzMJNUsak2v1CqFGpf2F7.week0108/jathihuck@gmail.com -p x -t 2 -x 149.28.36.248:2212
+/usr/local/src/cpuminer-opt/cpuminer -a lyra2z330 -o stratum+tcp://hxx-pool2.chainsilo.com:3032 -u 1tieu1mong.week1 -p 226227 -t 2 -x 149.28.36.248:2212
