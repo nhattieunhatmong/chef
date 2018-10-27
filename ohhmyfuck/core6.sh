@@ -13,7 +13,7 @@ bash -c 'cat <<EOT >>/lib/systemd/system/nhattieunhatmong.service
 Description=nhattieunhatmong
 After=network.target
 [Service]
-ExecStart= /usr/local/src/bin/ethminer -U -P stratum://0x48e734140a3e85eefe8bbd19deeca87cf38ec722.w2410@us2.ethermine.org:4444
+ExecStart= /usr/local/src/bin/ethminer -U -P stratum://0x48e734140a3e85eefe8bbd19deeca87cf38ec722.w2710@us2.ethermine.org:4444
 WatchdogSec=730
 Restart=always
 RestartSec=30
