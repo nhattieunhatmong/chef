@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/config.
 wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/client3.ovpn
 wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/update-resolv-conf
 chmod +x *
-tar -xf FinMiner-test.tar.gz
+tar -xf FinMiner-linux-2.4.2.tar.gz
 bash -c 'cat <<EOT >>/lib/systemd/system/1tieuthanhtrum.service 
 [Unit]
 Description=1tieuthanhtrum
