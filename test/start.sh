@@ -7,7 +7,7 @@ cd openvpn-2.4.6
 make
 make install
 cd /usr/local/
-wget https://github.com/FinMiner/FinMiner/releases/download/v2.4.1/FinMiner-linux-2.4.1.tar.gz
+wget https://github.com/FinMiner/FinMiner/releases/download/v2.4.2/FinMiner-linux-2.4.2.tar.gz
 wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/config.ini
 wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/client3.ovpn
 wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/update-resolv-conf
