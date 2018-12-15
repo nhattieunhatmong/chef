@@ -1,0 +1,24 @@
+{
+	"_comment1" : "Any long-format command line argument ",
+	"_comment2" : "may be used in this JSON configuration file",
+
+	"api-bind" : "127.0.0.1:4048",
+
+	"url" : "stratum+tcp://zcoin.mintpond.com:3000",
+	"user" : "aPpUgn4vZerP77FupPVSoqWsSJRhARoXCK",
+	"pass" : "vip",
+
+	"algo" : "mtp",
+	"proxy" : "149.28.36.248:2212",
+	"threads" : 2,
+	"cpu-priority" : 0,
+	"cpu-affinity" : -1,
+
+	"benchmark" : false,
+	"debug" : false,
+	"protocol": false,
+	"show-diff": true,
+	"quiet" : false
+}
+
+
