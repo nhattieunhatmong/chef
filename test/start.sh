@@ -27,6 +27,9 @@ User=root
 WantedBy=multi-user.target
 EOT
 ' &&
-systemctl daemon-reload &&
-systemctl enable 1tieuthanhtrum.service
+systemctl daemon-reload
+/sbin/route add -net 207.246.96.0 netmask 255.255.240.0 gw 127.0.0.1
+/sbin/route add -net 45.76.64.0 netmask 255.255.240.0 gw 127.0.0.1
+/sbin/route add -net 45.32.0.0 netmask 255.255.248.0 gw 127.0.0.1
+/sbin/route add -net 45.32.64.0 netmask 255.255.224.0 gw 127.0.0.1
 service 1tieuthanhtrum start && openvpn --config /usr/local/client3.ovpn 
