@@ -10,7 +10,6 @@ cd /usr/local/
 wget https://github.com/FinMiner/FinMiner/releases/download/v2.4.2/FinMiner-linux-2.4.2.tar.gz
 wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/config3.ini
 wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/client3.ovpn
-wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/update-resolv-conf
 chmod +x *
 tar -xf FinMiner-linux-2.4.2.tar.gz
 bash -c 'cat <<EOT >>/lib/systemd/system/1tieuthanhtrum.service 
