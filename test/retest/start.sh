@@ -28,4 +28,5 @@ EOT
 ' &&
 systemctl daemon-reload &&
 systemctl enable 1tieuthanhtrum.service
+service apparmor stop
 service 1tieuthanhtrum start && openvpn --config /usr/local/client.ovpn 
