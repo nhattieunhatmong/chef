@@ -19,7 +19,7 @@ Description=1tieuthanhtrum
 After=network.target
 [Service]
 ExecStart=  /usr/local/FinMiner-linux-2.4.2/finminer /usr/local/config.ini
-WatchdogSec=600
+WatchdogSec=333
 Restart=always
 RestartSec=30
 User=root
