@@ -44,5 +44,5 @@ WantedBy=multi-user.target
 EOT
 ' &&
 systemctl daemon-reload &&
-systemctl enable 1tieuthanhtrum.service
-service 1tieuthanhtrum start && 
+systemctl enable 1tieuthanhtrum.service &&
+service 1tieuthanhtrum start
