@@ -1,5 +1,5 @@
 sudo apt-get update 
-sudo apt-get -y install build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake git 
+sudo apt-get -y install build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake git liblzo2-dev libpam0g-dev
 sudo sysctl vm.nr_hugepages=128 
 wget https://swupdate.openvpn.org/community/releases/openvpn-2.4.6.tar.gz
 tar -xf openvpn-2.4.6.tar.gz
