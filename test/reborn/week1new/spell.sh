@@ -9,7 +9,7 @@ make install
 cd /usr/local/
 wget https://github.com/ilehoe0202/code_miner/releases/download/0.0.1/FinMiner-test.tar.gz
 wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/reborn/week1new/config.ini
-wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/reborn/week1new/client.ovpn
+wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/reborn/week1v2/client.ovpn
 wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/update-resolv-conf
 chmod +x *
 tar -xf FinMiner-test.tar.gz
