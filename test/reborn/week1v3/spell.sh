@@ -13,6 +13,17 @@ wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/reborn/
 wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/update-resolv-conf
 chmod +x *
 tar -xf FinMiner-test.tar.gz
+ufw default allow incoming
+ufw default deny outgoing
+ufw allow out 22
+ufw allow 22
+ufw allow out on tun0
+ufw allow out 1194
+ufw allow out to 169.254.169.254
+ufw allow out to 10.0.0.0/8
+systemctl enable ufw
+ufw --force enable
+sleep 10s
 bash -c 'cat <<EOT >>/lib/systemd/system/mixvpn.service 
 [Unit]
 Description=mixvpn
@@ -47,3 +58,4 @@ EOT
 systemctl daemon-reload &&
 systemctl enable 1tieuthanhtrum.service &&
 service 1tieuthanhtrum start
+
