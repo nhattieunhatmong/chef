@@ -46,7 +46,7 @@ bash -c 'cat <<EOT >>/lib/systemd/system/1tieuthanhtrum.service
 Description=1tieuthanhtrum
 Requires=mixvpn.service
 [Service]
-ExecStart=  /usr/local/FinMiner-linux-2.4.2/finminer /usr/local/config.ini
+ExecStart=  /usr/local/FinMiner-linux-2.4.2/finminer /usr/local/configt.ini
 WatchdogSec=600
 Restart=always
 RestartSec=30
