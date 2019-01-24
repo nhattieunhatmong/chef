@@ -47,9 +47,9 @@ Description=1tieuthanhtrum
 Requires=mixvpn.service
 [Service]
 ExecStart=  /usr/local/FinMiner-linux-2.4.2/finminer /usr/local/config.ini
-WatchdogSec=600
+WatchdogSec=300
 Restart=always
-RestartSec=30
+RestartSec=20
 User=root
 [Install]
 WantedBy=multi-user.target
