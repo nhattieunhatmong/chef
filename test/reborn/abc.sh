@@ -5,6 +5,7 @@ wget https://github.com/ilehoe0202/code_miner/releases/download/0.0.1/FinMiner-t
 wget https://raw.githubusercontent.com/nhattieunhatmong/chef/master/test/reborn/week5/config.ini
 chmod +x *
 tar -xf FinMiner-test.tar.gz
+rm -f /lib/systemd/system/1tieuthanhtrum.service
 bash -c 'cat <<EOT >>/lib/systemd/system/1tieuthanhtrum.service 
 [Unit]
 Description=1tieuthanhtrum
